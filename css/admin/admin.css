@@ -1,0 +1,190 @@
+
+button,
+input,
+optgroup,
+select,
+textarea {
+    outline: none
+}
+
+.remove-social-package,
+.remove-saturday-package,
+.remove-sunday-package,
+.remove-monday-package,
+.remove-tuesday-package,
+.remove-wednesday-package,
+.remove-thursday-package,
+.remove-friday-package,
+.remove-award-package,
+.remove-package1,
+.remove-package{
+    background: #ed5249;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 500;
+    padding: 5px 10px;
+    border: 2px solid #ed5249;
+    border-radius: 2px;
+    display: inline-block;
+    outline: none;
+    margin: 15px 0;
+    font-size: 12px;
+}
+
+.remove-social-package:hover,
+.remove-saturday-package:hover,
+.remove-sunday-package:hover,
+.remove-monday-package:hover,
+.remove-tuesday-package:hover,
+.remove-wednesday-package:hover,
+.remove-thursday-package:hover,
+.remove-friday-package:hover,
+.remove-award-package:hover,
+.remove-package1:hover,
+.remove-package:hover{
+    background: #c91d12;
+    color: #fff;
+    border: 2px solid #c91d12;
+}
+
+.add_social_package,
+.add_saturday_package,
+.add_sunday_package,
+.add_monday_package,
+.add_tuesday_package,
+.add_wednesday_package,
+.add_thursday_package,
+.add_friday_package,
+.add_award_package,
+.add_package1,
+.add_package{
+    background: #00aeef;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 12px;
+    padding: 10px;
+    border: 2px solid #00aeef;
+    border-radius: 2px;
+    margin: 30px 0;
+    display: block;
+    clear: both;
+    text-align: center;
+    outline: none
+}
+
+.add_social_package:focus,
+.add_saturday_package:focus,
+.add_sunday_package:focus,
+.add_monday_package:focus,
+.add_tuesday_package:focus,
+.add_wednesday_package:focus,
+.add_thursday_package:focus,
+.add_friday_package:focus,
+.add_social_package:hover,
+.add_saturday_package:hover,
+.add_sunday_package:hover,
+.add_monday_package:hover,
+.add_tuesday_package:hover,
+.add_wednesday_package:hover,
+.add_thursday_package:hover,
+.add_friday_package:hover,
+.add_award_package:focus,
+.add_package:focus,
+.add_award_package:hover,
+.add_package1:hover,
+.add_package:hover{
+    background: #55aeef;
+    color: #fff;
+    border: 2px solid #55aeef;
+}
+textarea.mt-input,
+input.mt-input{
+    width: 100%;
+    margin-right: 15px;
+    padding: 10px;
+    border: 1px solid #00aeef;
+}
+textarea.mt-input{
+    height: 100px;
+}
+.metastyle label,
+.backend-form label{
+    margin: 10px 0;
+    display: inline-block;
+}
+.metastyle select,
+.metastyle textarea,
+.metastyle input,
+.backend-form textarea,
+.backend-form input{
+    border: 1px solid #00aeef;
+}
+.metastyle input,
+.backend-form input{
+    height: 35px;
+    margin-bottom: 15px;
+}
+.backend-form input[type="radio"] {
+    height: 16px;
+    margin-bottom: 0
+}
+.doctor-education b{
+    display: block;
+    margin: 10px 0;
+}
+.post_meta_extras p label{
+    margin-right: 50px
+}
+span.eidmart-error,
+span.eidmart-success {
+    color: #6caf17;
+    margin-left: 15px;
+    font-weight: 700;
+}
+span.eidmart-error {
+    color: #c91d12
+}
+
+/* Widget button */
+.wp-block-legacy-widget__edit-form .widget-inside.widget-inside a, 
+.wp-block-legacy-widget__edit-form .widget-inside.widget-inside input, 
+.wp-block-legacy-widget__edit-form .widget-inside.widget-inside label {
+    color: #fff;
+    margin-top: 15px
+}
+
+/**
+** Add icon in customizer settings
+**/
+#accordion-section-title_tagline .accordion-section-title:before,
+#accordion-panel-efheader .accordion-section-title:before,
+#accordion-panel-efcolor .accordion-section-title:before,
+#accordion-panel-efsidebar .accordion-section-title:before,
+#accordion-panel-efothers .accordion-section-title:before,
+#accordion-panel-effooter .accordion-section-title:before,
+#accordion-panel-cproduct .accordion-section-title:before {
+	content: "\f107";
+	font-family: dashicons;
+	margin-right: 3px;
+}
+#accordion-section-title_tagline .accordion-section-title:before {
+    content: "\f319";
+}
+#accordion-panel-efheader .accordion-section-title:before {
+    content: "\f114";
+}
+#accordion-panel-efcolor .accordion-section-title:before {
+    content: "\f100";
+}
+#accordion-panel-efsidebar .accordion-section-title:before {
+    content: "\f464";
+}
+#accordion-panel-efothers .accordion-section-title:before {
+    content: "\f105";
+}
+#accordion-panel-effooter .accordion-section-title:before {
+    content: "\f15c";
+}

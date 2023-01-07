@@ -1,0 +1,488 @@
+/*
+Theme Name: Eidmart
+
+Adding support for languages written in a Right To Left (RTL) direction is easy -
+it's just a matter of overwriting all the horizontal positioning attributes
+of your CSS stylesheet in a separate stylesheet file named rtl.css.
+
+https://codex.wordpress.org/Right-to-Left_Language_Support
+
+*/
+
+body {
+	direction: rtl;
+	unicode-bidi: embed;
+}
+.single-product .product-details .product-content h3 {
+	margin: 20px 0 0 0;
+}
+.single-product .product-details .product-content p a:nth-child(2),
+.single-product .product-details .product-content p a:nth-child(1) {
+	margin: 0;
+}
+.sign-in a.btn-hover {
+    margin-right: 30px;
+    margin-left: unset;
+}
+.sign-in .menu-search {
+    margin-left: 20px;
+    margin-right: unset;
+}
+.sign-in .search-dropdown-menu ul, 
+.sign-in .cart-dropdown-menu ul {
+    left: -65px;
+    right: unset;
+}
+ul.main-menu-nav li.dropdown a i {
+    padding-right: 3px;
+    padding-left: unset;
+}
+.main-menu .navbar-nav .dropdown-menu a:before, .main-menu .navbar-nav .dropdown-menu .nav-link:before {
+    content: "\f060";
+    float: right;
+    padding-left: 10px;
+    padding-right: unset;
+}
+.btco-hover-menu .collapse ul ul ul {
+    right: 94%;
+    left: unset;
+}
+.btco-hover-menu .collapse ul ul {
+    right: 0;
+}
+.product-description-right .price-box img {
+    left: -40px;
+    right: unset
+}
+.single-product-logo img {
+    border-right: 1px solid rgba(255, 255, 255, 0.1) !important;
+    padding-right: 15px;
+    padding-left: unset;
+    border-left: unset !important;
+}
+.search-dropdown-menu .btn.btn-search {
+    border-top-right-radius: unset;
+    border-bottom-right-radius: unset;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+    border: 0;
+}
+.sign-in .search-dropdown-menu input {
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+}
+.sl-icon {
+    margin-left: 0.5em;
+    margin-right: unset
+}
+.social-link ul li {
+    margin-left: 20px;
+    margin-right: unset;
+}
+.thumbnail-item-left,
+.recent-item h2 i, .featured-item h2 i, 
+.trending-item h2 i,
+.author-assets .author-image img {
+    margin-left: 15px;
+    margin-right: unset
+}
+.product-arrow {
+    left: 13px;
+    right: unset;
+}
+.btco-hover-menu li:hover.dropdown:after {
+    margin-right: -30px;
+}
+.product-banner-content.single-product-header-two.product-three-style ol.breadcrumb, 
+.product-banner-content.single-product-header-two.product-three-style,
+footer.footer-section-1x,
+.faqs-1x,
+.author-profile-left,
+.testimonial-section-2x .single-testimonial,
+.main-banner-left,
+.graphicland-one.graphicland-style,
+.main-banner.log-reg,
+.single-product-doc,
+.content-details h3,
+.author-profile-left.graphicland-profile,
+.footer-section-1x .footer-bottom,
+.blog-1x,
+.blog-list-1x,
+.blog-single-1x,
+.blog-content,
+.about-business-content-2x,
+.about-business-content-2x .section-link,
+.faqs-1x.item-faq,
+.product-description-right,
+.sign-in .cart-dropdown-menu ul li .media .media-body h3,
+.product-description-1x.photography-single .product-description-left .product-description-tab, 
+.product-description-1x.photography-single .product-description-left .image-bottom-share, 
+.photography-single .product-description-right .product-features, 
+.photography-single .product-description-right .purchase-comments, 
+.photography-single .product-description-right .price-box,
+.title-left,
+.page-banner .overlay-text h1, .page-banner .overlay-text h3,
+.main-menu .navbar-nav .dropdown-menu a, 
+.main-menu .navbar-nav .dropdown-menu .nav-link,
+.layout-three .product-description-right .price-box,
+.product-single-banner .product-banner-content h1,
+.single-product .product-details .product-content,
+.graphicland-demo .author-assets,
+.featured-product-1x.graphicland-style,
+.single-product .product-details.graphicland-product-details .content-title,
+.product-description-1x .product-description-left.graphicland-demo .product-description-tab,
+h3#reply-title,
+.vendor-dashboard-main,
+.featured-product-1x,
+.contact-info,
+.cta-1x .cta-left,
+.audio-version.lpf-audio-version,
+.latest-product-1x .all-product-tab .single-product,
+.business-cta-1x.minimal-cta .cta-content,
+.blog-1x.home-page-blog .title-middle,
+.testimonial-section-3x .single-testimonial .client-info-content,
+.service-2x .single-service,
+.course-header-1x .course-header-left-top,
+.course-header-1x .course-header-left,
+.graphicland-demo .product-description-right .purchase-comments, 
+.graphicland-demo .product-description-right .product-features, 
+.graphicland-demo .product-description-right .price-box {
+    text-align: right;
+}
+.single-product .product-details .product-content-footer h4,
+.bbpress .widget dt,
+.blog-1x .blog-single .blog-single-content h3,
+.course-header-1x .course-header-right .course-tab,
+p.edd-login-remember,
+.page-content input.form-control.search-field, 
+.widget input.form-control.search-field,
+.single-product .product-content.product-author p, .single-product:hover .product-content.product-author p {
+	text-align: left
+}
+.price-box .edd_price_options input[type="radio"]+span:before, .price-box .edd_price_options input[type="checkbox"]+span:before {
+    margin-left: 10px;
+    margin-right: -5px;
+}
+.blog-1x.home-page-blog .title-middle h2:after, .featured-product-3x .title-left h2:after,
+.blog-all-latest.dark .blog-content a:nth-child(2):after,
+.course-header-1x .course-header-left .filter-product .checkmark,
+h3#reply-title:after, 
+.blog-single-1x .blog-single-left-content .comment-section h3:after, 
+.woocommerce-Reviews span#reply-title:after, 
+h3#order_review_heading:after, 
+label.woocommerce-form__label span:after, 
+.blog-single-1x .blog-single-left-content .woocommerce-billing-fields h3:after, 
+.woocommerce h2:after, .title-left h2:after, 
+.featured-product-1x.premium-service .title-left h2:after, 
+.service-3x .title-left h2:after {
+	right: 0
+}
+
+.show-sticky-price .edd_download_purchase_form .edd_price_options, 
+.show-sticky-price .edd_download_purchase_form .edd_price_options ul,
+.product-banner-content.single-product-header-two.product-three-style .nav.nav-tabs .nav-link,
+.team-members-left a i,
+.graphicland-demo .blog-single-1x .blog-single-left-content .comment-section .media {
+    margin-left: 10px;
+    margin-right: unset
+}
+.blog-single-1x .blog-single-left-content .comment-section .media .media-body h5 span a i {
+    margin-right: 10px;
+}
+.show-sticky-price h3,
+.single-product .product-details .product-content h3 span .btn-bordered {
+	margin-right: 20px;
+	margin-left: unset
+}
+.cta-1x .cta-right,
+span.pub-author,
+.product-management .nav-tabs,
+.course-header-1x .course-header-left .category ul li span,
+.content-details h3 strong,
+.footer-section-1x .footer-bottom ul,
+.minimal-cta-btn,
+.sign-in .cart-dropdown-menu ul li .media .media-body h3 span,
+.product-header .favourite-icon,
+.single-product .product-details .product-content h3 span.cart-btn,
+.faqs-1x .single-faq .card-header .accordion-toggle:after,
+.faqs-1x .single-faq .card-header .accordion-toggle.collapsed:after,
+.single-product .product-details.graphicland-product-details .content-title strong {
+    float: left;
+}
+.single-product .product-content.product-author p a, 
+.single-product:hover .product-content.product-author p a {
+	display: inline-block
+}
+.blog-content i,
+.single-product .vendor-avatar {
+    margin-left: 5px;
+    margin-right: unset;
+}
+.graphicland-demo.graphicland-woo .graphicland-price {
+    border-left: 1px solid #eeeeee;
+    border-right: unset;
+}
+.graphicland-demo.graphicland-woo .graphicland-feature ul {
+    padding-right: 15px;
+    text-align: right;
+}
+div.fes-form .fes-submit input[name=save-draft],
+.single-product .product-details .product-content-footer .product-foot span i, 
+.single-product .product-details .product-content-footer h4 span i,
+.sl-wrapper a {
+	margin-right: 0
+}
+.product-description-1x .product-description-left.graphicland-demo.graphicland-woo .product-image i.la-angle-left.slick-arrow {
+	right: unset
+}
+.graphicland-style.graphicland-one .single-product .product-details .product-content p {
+	display: initial
+}
+.graphicland-style.graphicland-one .single-product .product-details .product-content p a:nth-child(2) {
+	margin: 0;
+}
+a.photography-logo img {
+	float: right
+}
+.grid-item:hover .auth-info,
+.photography-filter-item:hover .auth-info {
+	display: flex
+}
+.course-header-1x .course-header-left .category ul li img,
+.minimal.product-description-right ul i,
+.pricing-plan-1x .single-pricing ul li i,
+img.avatar.vendor-pic {
+	margin-left: 10px;
+	margin-right: unset
+}
+.about-business-left-2x .year-text {
+	margin-right: 10px;
+	margin-left: unset
+}
+.grid-item .auth-info a,
+.photography-filter .auth-info a {
+    margin: 0 5px;
+}
+.grid-item .auth-info a:last-child,
+.photography-filter .auth-info a:last-child {
+    margin-left: 0;
+}
+.testimonial-section-3x .single-testimonial .client-info img,
+.sign-in .cart-dropdown-menu ul li .media img {
+	margin-left: 15px;
+	margin-right: unset;
+}
+.subscribe-section-1x .col-md-5.text-left {
+    text-align: right !important;
+}
+.subscribe-section-1x .col-md-7.subscriber-content {
+    padding-right: 10%;
+    padding-left: unset;
+    border-right: 1px solid rgba(151, 151, 151, 0.2);
+    border-left: unset
+}
+.comment-form-cookies-consent label,
+a.btn-bordered.app-store i, 
+.app-section-1x a.btn-bordered.app-store i, 
+.app-section-1x a.btn-bordered.google-play i {
+    margin-right: 5px;
+    margin-left: unset
+}
+.product-description-right .price-box del, 
+.single-product .product-details .product-content h3 del,
+.graphicland-demo.graphicland-woo .graphicland-feature ul li::before,
+.main-banner .overlay-text .slider-feature ul li i,
+.blog-content i {
+	margin-left: 5px;
+	margin-right: unset
+}
+.single-speaker .hvrbox .hvrbox-layer_top {
+	right: -50%;
+}
+
+.doc-block .doc-block-icon i,
+.client-info .client-img img,
+.info-icon {
+    margin-left: 20px;
+    margin-right: unset
+}
+.dashboard-dropdown-style {
+    right: -102px;
+    left: unset
+}
+.service-2x .single-service i,
+.bt-review {
+    margin-left: 15px;
+    margin-right: unset;
+}
+.author-profile-banner .author-profile-left .media img,
+.main-banner .overlay-text .slider-feature ul li {
+	margin-left: 25px;
+	margin-right: unset;
+}
+.dashboard-dropdown-style span.triangle-arrow {
+    left: 25px;
+    right: unset;
+}
+.course-header-1x .course-header-left .card .icon-right.collapsed:after,
+.course-header-1x .course-header-left .card .icon-right:after {
+    float: left;
+    margin: -32px 0 0 20px;
+}
+.filter-content a.blog-btn i, 
+.single-services .media-body a.blog-btn i, 
+a.blog-btn i,
+.blog-1x .team-members-left i,
+.course-header-1x .course-header-left .category ul li img {
+	transform: rotate(180deg);
+}
+.user-information,
+.course-header-1x .course-header-left .filter-product a{
+	margin-right: 15px
+}
+.btn-video {
+    margin-right: 70px;
+    margin-left: unset
+}
+.product-management.screenshot-tab .nav-tabs {
+    text-align: center;
+    float: none;
+}
+.testimonial-section-2x .single-testimonial p:before {
+    right: 0;
+    float: right;
+    color: #ffb307;
+    transform: rotate(180deg);
+}
+.single-product .product-details .product-content.product-author p a,
+.single-product .product-details .product-content p a,
+div.fes-form .fes-el .fes-fields {
+    display: inline;
+}
+.custom-category ul li:before,
+ul.wp-block-categories li:before, 
+ul.wp-block-archives li:before, .widget ul li:before {
+    padding-right: 10px;
+	padding-left: unset;
+    float: right;
+    transform: rotate(180deg);
+}
+ul.wp-block-categories, ul.wp-block-archives, .widget ul {
+    margin-right: 0;
+    padding-right: 0;
+    margin-left: unset;
+    padding-left: unset;
+}
+.product-banner-content.single-product-header-two.product-three-style .nav.nav-tabs {
+    padding-right: 0
+}
+.blog-list-1x .blog-list-single span.blog-date {
+    margin: -20px 30px 0 0;
+}
+.blog-list-1x .blog-list-single .blog-list-content .blog-footer .dropright {
+    float: left;
+    margin-top: 0;
+}
+.blog-author .media img,
+.blog-list-1x .blog-list-right .recent-popular-post .recent-popular-tab .recent-post .media img,
+.blog-single-1x .blog-single-left-content .comment-section .media img {
+    margin-left: 30px;
+    margin-right: unset
+}
+.main-banner .overlay-text .styleSelect {
+    background: url(images/down-arrow-2.png) no-repeat 20% #f5f5f5;
+}
+.footer-subscriber button.btn-subscriber,
+.main-banner .overlay-text button.btn.btn-search {
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 0;
+    border-top-right-radius: 0;
+    border-top-left-radius: 3px;
+}
+.footer-subscriber input.form-control,
+.main-banner .overlay-text input[type="text"] {
+	border-bottom-left-radius: 0;
+    border-bottom-right-radius: 3px;
+    border-top-right-radius: 3px;
+    border-top-left-radius: 0;
+}
+.main-banner.audio-version .overlay-text input[type="text"] {
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 50px;
+    border-top-right-radius: 50px;
+    border-top-left-radius: 0;
+}
+.main-banner.audio-version .overlay-text button.btn.btn-search {
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 0;
+    border-top-right-radius: 0;
+    border-top-left-radius: 50px;
+}
+.btn-hover i, #edd-purchase-button i, .edd-submit i, [type=submit].edd-submit i, a.edd-add-to-cart i, a.edd-submit.button.blue i, .edd_purchase_submit_wrapper a.edd-add-to-cart.edd-has-js i, a.btn-small i,
+.service-3x .single-service a.normal-btn i, 
+a.normal-btn i {
+    margin-right: 3px;
+    margin-left: unset
+}
+.sign-in .border-left {
+    padding-left: 17px;
+    padding-right: unset;
+}
+.fa-angle-left:before,
+.fa-angle-right:before {
+    transform: rotate(180deg);
+}
+.blog-1x .team-members-left i {
+    transform: rotateY( 180deg );
+}
+.without-album-poster .player-icon {
+    right: 15px;
+    left: unset;
+}
+.audio-version .without-album-poster .product-content, 
+.audio-version .without-album-poster .auth-info {
+    padding-right: 55px;
+    padding-left: unset;
+}
+.audio-version .product-content .price {
+    padding-right: 15px;
+    padding-left: unset;
+}
+.product-content .price del {
+    margin-left: 3px;
+    margin-right: unset;
+}
+.minimal.main-banner.main-banner-2x.main-banner-5x .btn-video {
+    margin: 0 50px 0 0;
+}
+.business-cta-1x.minimal-cta img.shape-4 {
+    left: 0;
+    right: unset
+}
+@keyframes ctaAnimation { 
+	0% { background: transparent; left: 0%; bottom: -60%; }
+		25% { background: transparent; left: 2%; bottom: -60%; }
+			50% { background: transparent; left: 0%; bottom: -60%; }
+				75% { background: transparent; left: 0%; bottom: -60%; }
+					100% { background: transparent; left: 0%; bottom: -60%; }
+}
+/* Left shape */
+img.shape-3 {
+	left: 0%;
+}
+@keyframes bottomcircle { 
+	0% { background: transparent; left: 0px; bottom: 15%; }
+		25% { background: transparent; left: 0px; bottom: 15%; }
+			50% { background: transparent; left: 0px; bottom: 25%; }
+				75% { background: transparent; left: 0px; bottom: 15%; }
+					100% { background: transparent; left: 0px; bottom: 5%; }
+}
+/**
+ * RTL Responsive
+ */
+@media screen and (max-width: 991px) {
+	.sign-in,
+	ul.navbar-nav {
+	    padding-left: 30px;
+	}
+}

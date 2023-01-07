@@ -1,0 +1,2039 @@
+# Copyright (C) 2017 Automattic
+# This file is distributed under the GNU General Public License v2 or later.
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: _s 1.0.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/tags/_s\n"
+"POT-Creation-Date: 2021-10-01 20:05+0600\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2017-MO-DA HO:MI+ZONE\n"
+"Last-Translator: \n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"X-Generator: Poedit 3.0\n"
+"X-Poedit-KeywordsList: __;_e;_x;esc_html__;esc_arrt__;esc_html_e\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: 404.php:16 404.php:18
+msgid "Oops! Page not found!"
+msgstr ""
+
+#: 404.php:20
+msgid "Go back to homepage"
+msgstr ""
+
+#: archive-download.php:32 search.php:35 taxonomy-download_category.php:33
+#: taxonomy-download_tag.php:31
+msgid "All prices are in USD"
+msgstr ""
+
+#: author.php:28 edd-templates/1a_customer-dashboard.php:26
+#: edd-templates/1b_vendor-dashboard.php:44
+#: edd-templates/2_single-vendor-profile.php:32
+#: edd-templates/3a_multi-vendor-profile.php:58
+#: edd-templates/4a_graphicland-single-vendor-profile.php:32
+#: edd-templates/4b_multi-vendor-graphicland-profile.php:58
+#: edd-templates/5a_photography-single-vendor-profile.php:33
+#: edd-templates/5b_photography-multi-vendor-profile.php:58
+#: edd-templates/6a_audio-single-vendor-profile.php:32
+#: edd-templates/6b_audio-multi-vendor-profile.php:59
+#: edd-templates/7a_video-single-vendor-profile.php:33
+#: edd-templates/7b_video-multi-vendor-profile.php:59
+#: template-parts/product/general-sidebar.php:102
+msgid "Joined: "
+msgstr ""
+
+#: author.php:88
+msgid "Total Articles"
+msgstr ""
+
+#: author.php:103 edd-templates/2_single-vendor-profile.php:107
+#: edd-templates/3a_multi-vendor-profile.php:124
+#: edd-templates/4a_graphicland-single-vendor-profile.php:107
+#: edd-templates/4b_multi-vendor-graphicland-profile.php:124
+#: edd-templates/5a_photography-single-vendor-profile.php:108
+#: edd-templates/5b_photography-multi-vendor-profile.php:124
+#: edd-templates/6a_audio-single-vendor-profile.php:107
+#: edd-templates/6b_audio-multi-vendor-profile.php:126
+#: edd-templates/7a_video-single-vendor-profile.php:108
+#: edd-templates/7b_video-multi-vendor-profile.php:126
+msgid "Introduction"
+msgstr ""
+
+#: author.php:204
+msgid "There are no related blog post."
+msgstr ""
+
+#: bbpress.php:51 bbpress.php:106 page.php:55 page.php:106
+#: template-parts/blog/full-width.php:41
+#: template-parts/blog/general-content.php:41
+#: template-parts/blog/general-content.php:161
+msgid "Pages "
+msgstr ""
+
+#: bbpress.php:55 bbpress.php:110 page.php:59 page.php:110
+#: template-parts/blog/full-width.php:45
+#: template-parts/blog/general-content.php:45
+#: template-parts/blog/general-content.php:165
+msgid "Page "
+msgstr ""
+
+#: bbpress/form-reply-search.php:18
+msgid "Search replies:"
+msgstr ""
+
+#: bbpress/form-search.php:18
+msgid "Search for:"
+msgstr ""
+
+#: bbpress/form-topic-search.php:18
+msgid "Search topics:"
+msgstr ""
+
+#: comments.php:14 graphicland-comments.php:14
+msgid "This post is password protected. Enter the password to view any comments."
+msgstr ""
+
+#: comments.php:28 graphicland-comments.php:29
+msgid "Post a Comment"
+msgstr ""
+
+#: comments.php:29 graphicland-comments.php:30
+#, php-format
+msgid "Post a Reply to %s"
+msgstr ""
+
+#: comments.php:30 graphicland-comments.php:31
+msgid "Cancel Reply"
+msgstr ""
+
+#: comments.php:31 graphicland-comments.php:32
+msgid "Post Comment"
+msgstr ""
+
+#: comments.php:67 comments.php:91 graphicland-comments.php:69
+#: graphicland-comments.php:96 inc/template-functions.php:90
+#: template-parts/product/content-graphicland-woo.php:349
+#: template-parts/product/content-image.php:43
+msgid " Comment "
+msgstr ""
+
+#: comments.php:67 comments.php:91 graphicland-comments.php:69
+#: graphicland-comments.php:96 inc/template-functions.php:90
+#: template-parts/product/content-graphicland-woo.php:349
+#: template-parts/product/content-image.php:43
+msgid " Comments "
+msgstr ""
+
+#: comments.php:121 graphicland-comments.php:124
+msgid "Pingback:"
+msgstr ""
+
+#: comments.php:121 graphicland-comments.php:124
+msgid "(Edit)"
+msgstr ""
+
+#: comments.php:141 graphicland-comments.php:135
+msgid "at"
+msgstr ""
+
+#: comments.php:142 graphicland-comments.php:145
+msgid "Reply"
+msgstr ""
+
+#: edd-templates/1a_customer-dashboard.php:88
+#: edd-templates/1b_vendor-dashboard.php:85
+#: edd-templates/2_single-vendor-profile.php:94
+#: edd-templates/3a_multi-vendor-profile.php:112
+#: edd-templates/4a_graphicland-single-vendor-profile.php:94
+#: edd-templates/4b_multi-vendor-graphicland-profile.php:112
+#: edd-templates/5a_photography-single-vendor-profile.php:95
+#: edd-templates/5b_photography-multi-vendor-profile.php:112
+#: edd-templates/6a_audio-single-vendor-profile.php:94
+#: edd-templates/6b_audio-multi-vendor-profile.php:114
+#: edd-templates/7a_video-single-vendor-profile.php:95
+#: edd-templates/7b_video-multi-vendor-profile.php:114
+msgid "Total Items"
+msgstr ""
+
+#: edd-templates/1a_customer-dashboard.php:106
+msgid "Profile"
+msgstr ""
+
+#: edd-templates/1a_customer-dashboard.php:107
+#: template-parts/product/content-graphicland-woo.php:164
+#: template-parts/product/general-sidebar.php:89
+#: template-parts/product/photography-sidebar.php:76
+msgid "Purchase"
+msgstr ""
+
+#: edd-templates/1a_customer-dashboard.php:124
+msgid "Sorry, trouble retrieving dashboard. Please login!"
+msgstr ""
+
+#: edd-templates/1b_vendor-dashboard.php:71
+#: edd-templates/3a_multi-vendor-profile.php:87
+#: edd-templates/4b_multi-vendor-graphicland-profile.php:87
+#: edd-templates/5b_photography-multi-vendor-profile.php:87
+#: edd-templates/6b_audio-multi-vendor-profile.php:89
+#: edd-templates/7b_video-multi-vendor-profile.php:89
+msgid "Total Earnings"
+msgstr ""
+
+#: edd-templates/1b_vendor-dashboard.php:78
+#: edd-templates/3a_multi-vendor-profile.php:94
+#: edd-templates/3a_multi-vendor-profile.php:103
+#: edd-templates/4b_multi-vendor-graphicland-profile.php:94
+#: edd-templates/4b_multi-vendor-graphicland-profile.php:103
+#: edd-templates/5b_photography-multi-vendor-profile.php:94
+#: edd-templates/5b_photography-multi-vendor-profile.php:103
+#: edd-templates/6b_audio-multi-vendor-profile.php:96
+#: edd-templates/6b_audio-multi-vendor-profile.php:105
+#: edd-templates/7b_video-multi-vendor-profile.php:96
+#: edd-templates/7b_video-multi-vendor-profile.php:105
+msgid "Lifetime Sales"
+msgstr ""
+
+#: edd-templates/1b_vendor-dashboard.php:109
+msgid "Your Public Store"
+msgstr ""
+
+#: edd-templates/1b_vendor-dashboard.php:139
+#: edd-templates/2_single-vendor-profile.php:153
+#: edd-templates/3a_multi-vendor-profile.php:166
+#: edd-templates/3a_multi-vendor-profile.php:239
+#: edd-templates/4a_graphicland-single-vendor-profile.php:153
+#: edd-templates/4b_multi-vendor-graphicland-profile.php:172
+#: edd-templates/4c_multi-vendor-graphicland-profile-two.php:133
+#: edd-templates/5a_photography-single-vendor-profile.php:158
+#: edd-templates/5b_photography-multi-vendor-profile.php:167
+#: edd-templates/5b_photography-multi-vendor-profile.php:249
+#: edd-templates/6a_audio-single-vendor-profile.php:154
+#: edd-templates/6b_audio-multi-vendor-profile.php:170
+#: edd-templates/6b_audio-multi-vendor-profile.php:305
+#: edd-templates/7a_video-single-vendor-profile.php:154
+#: edd-templates/7b_video-multi-vendor-profile.php:169
+#: edd-templates/7b_video-multi-vendor-profile.php:309
+#: template-parts/product/content-audio.php:73
+#: template-parts/product/content-video.php:74
+msgid " sales"
+msgstr ""
+
+#: edd-templates/1b_vendor-dashboard.php:139
+#: edd-templates/2_single-vendor-profile.php:153
+#: edd-templates/3a_multi-vendor-profile.php:166
+#: edd-templates/3a_multi-vendor-profile.php:239
+#: edd-templates/4a_graphicland-single-vendor-profile.php:153
+#: edd-templates/4b_multi-vendor-graphicland-profile.php:172
+#: edd-templates/4c_multi-vendor-graphicland-profile-two.php:133
+#: edd-templates/5a_photography-single-vendor-profile.php:158
+#: edd-templates/5b_photography-multi-vendor-profile.php:167
+#: edd-templates/5b_photography-multi-vendor-profile.php:249
+#: edd-templates/6a_audio-single-vendor-profile.php:154
+#: edd-templates/6b_audio-multi-vendor-profile.php:170
+#: edd-templates/6b_audio-multi-vendor-profile.php:305
+#: edd-templates/7a_video-single-vendor-profile.php:154
+#: edd-templates/7b_video-multi-vendor-profile.php:169
+#: edd-templates/7b_video-multi-vendor-profile.php:309
+#: template-parts/product/content-audio.php:73
+#: template-parts/product/content-video.php:74
+msgid " sale"
+msgstr ""
+
+#: edd-templates/1b_vendor-dashboard.php:145
+#: edd-templates/3a_multi-vendor-profile.php:171
+#: edd-templates/5b_photography-multi-vendor-profile.php:172
+msgid "Featured Item"
+msgstr ""
+
+#: edd-templates/1b_vendor-dashboard.php:149
+#: edd-templates/2_single-vendor-profile.php:268
+#: edd-templates/3a_multi-vendor-profile.php:175
+#: edd-templates/3a_multi-vendor-profile.php:355
+#: edd-templates/4a_graphicland-single-vendor-profile.php:240
+#: edd-templates/4b_multi-vendor-graphicland-profile.php:204
+#: edd-templates/4c_multi-vendor-graphicland-profile-two.php:149
+#: edd-templates/5a_photography-single-vendor-profile.php:226
+#: edd-templates/5b_photography-multi-vendor-profile.php:176
+#: edd-templates/6a_audio-single-vendor-profile.php:236
+#: edd-templates/6b_audio-multi-vendor-profile.php:197
+#: edd-templates/6b_audio-multi-vendor-profile.php:332
+#: edd-templates/7a_video-single-vendor-profile.php:248
+#: edd-templates/7b_video-multi-vendor-profile.php:207
+#: edd-templates/7b_video-multi-vendor-profile.php:347
+#: inc/template-functions.php:1365 inc/template-functions.php:1464
+#: inc/template-functions.php:1560 inc/template-functions.php:1659
+#: inc/template-functions.php:1747
+msgid "Free"
+msgstr ""
+
+#: edd-templates/1b_vendor-dashboard.php:159
+#: edd-templates/2_single-vendor-profile.php:355
+#: edd-templates/3a_multi-vendor-profile.php:184
+#: edd-templates/3a_multi-vendor-profile.php:436
+#: edd-templates/4a_graphicland-single-vendor-profile.php:340
+#: edd-templates/4b_multi-vendor-graphicland-profile.php:281
+#: edd-templates/4c_multi-vendor-graphicland-profile-two.php:168
+#: edd-templates/5a_photography-single-vendor-profile.php:318
+#: edd-templates/5b_photography-multi-vendor-profile.php:185
+#: edd-templates/5b_photography-multi-vendor-profile.php:363
+#: edd-templates/6a_audio-single-vendor-profile.php:327
+#: edd-templates/6b_audio-multi-vendor-profile.php:243
+#: edd-templates/6b_audio-multi-vendor-profile.php:415
+#: edd-templates/7a_video-single-vendor-profile.php:343
+#: edd-templates/7b_video-multi-vendor-profile.php:249
+#: edd-templates/7b_video-multi-vendor-profile.php:426
+msgid "No item available right now."
+msgstr ""
+
+#: edd-templates/2_single-vendor-profile.php:193
+#: edd-templates/3a_multi-vendor-profile.php:280 inc/template-functions.php:731
+#: inc/template-functions.php:812 inc/template-functions.php:1299
+msgid "Featured"
+msgstr ""
+
+#: edd-templates/2_single-vendor-profile.php:215
+#: edd-templates/3a_multi-vendor-profile.php:302
+#: edd-templates/4a_graphicland-single-vendor-profile.php:232
+#: edd-templates/5a_photography-single-vendor-profile.php:217
+#: edd-templates/6a_audio-single-vendor-profile.php:228
+#: edd-templates/7a_video-single-vendor-profile.php:239
+#: inc/template-functions.php:1321 inc/template-functions.php:1456
+#: inc/template-functions.php:1552 inc/template-functions.php:1650
+#: inc/template-functions.php:1738
+msgid "Off"
+msgstr ""
+
+#: edd-templates/2_single-vendor-profile.php:233
+#: edd-templates/3a_multi-vendor-profile.php:320
+#: edd-templates/5a_photography-single-vendor-profile.php:236
+#: edd-templates/5b_photography-multi-vendor-profile.php:298
+#: edd-templates/6a_audio-single-vendor-profile.php:248
+#: edd-templates/6b_audio-multi-vendor-profile.php:213
+#: edd-templates/6b_audio-multi-vendor-profile.php:348
+#: edd-templates/7a_video-single-vendor-profile.php:258
+#: edd-templates/7b_video-multi-vendor-profile.php:217
+#: edd-templates/7b_video-multi-vendor-profile.php:357
+#: inc/template-functions.php:1339 inc/template-functions.php:1572
+#: inc/template-functions.php:1669 inc/template-functions.php:1757
+msgid "by"
+msgstr ""
+
+#: edd-templates/2_single-vendor-profile.php:244
+#: edd-templates/3a_multi-vendor-profile.php:331
+#: edd-templates/4a_graphicland-single-vendor-profile.php:259
+#: edd-templates/4b_multi-vendor-graphicland-profile.php:220
+#: edd-templates/5a_photography-single-vendor-profile.php:242
+#: edd-templates/5b_photography-multi-vendor-profile.php:303
+#: edd-templates/6a_audio-single-vendor-profile.php:253
+#: edd-templates/6b_audio-multi-vendor-profile.php:219
+#: edd-templates/6b_audio-multi-vendor-profile.php:354
+#: edd-templates/7a_video-single-vendor-profile.php:264
+#: edd-templates/7b_video-multi-vendor-profile.php:224
+#: edd-templates/7b_video-multi-vendor-profile.php:364
+#: inc/template-functions.php:1345 inc/template-functions.php:1483
+#: inc/template-functions.php:1577 inc/template-functions.php:1675
+#: inc/template-functions.php:1763
+msgid "in"
+msgstr ""
+
+#: edd-templates/3a_multi-vendor-profile.php:196
+#: edd-templates/5b_photography-multi-vendor-profile.php:197
+#: edd-templates/6b_audio-multi-vendor-profile.php:255
+#: edd-templates/7b_video-multi-vendor-profile.php:261
+msgid "Email to "
+msgstr ""
+
+#: edd-templates/3a_multi-vendor-profile.php:207
+#: edd-templates/5b_photography-multi-vendor-profile.php:208
+#: edd-templates/6b_audio-multi-vendor-profile.php:266
+#: edd-templates/7b_video-multi-vendor-profile.php:272
+msgid "Items by "
+msgstr ""
+
+#: edd-templates/3a_multi-vendor-profile.php:454
+#: edd-templates/4b_multi-vendor-graphicland-profile.php:301
+#: edd-templates/4c_multi-vendor-graphicland-profile-two.php:194
+#: edd-templates/5b_photography-multi-vendor-profile.php:382
+#: edd-templates/6b_audio-multi-vendor-profile.php:433
+#: edd-templates/7b_video-multi-vendor-profile.php:444
+msgid "Become a Vendor"
+msgstr ""
+
+#: edd-templates/4c_multi-vendor-graphicland-profile-two.php:86
+msgid "All"
+msgstr ""
+
+#: edd-templates/4c_multi-vendor-graphicland-profile-two.php:175
+msgid "Load More"
+msgstr ""
+
+#: edd-templates/5b_photography-multi-vendor-profile.php:282
+#: inc/template-functions.php:1239
+msgid "Sales "
+msgstr ""
+
+#: edd-templates/7a_video-single-vendor-profile.php:207
+#: edd-templates/7b_video-multi-vendor-profile.php:191
+#: edd-templates/7b_video-multi-vendor-profile.php:331
+#: inc/template-functions.php:1618 template-parts/product/content-video.php:90
+msgid "Your browser does not support HTML5 video."
+msgstr ""
+
+#: functions.php:49
+msgid "Primary Menu"
+msgstr ""
+
+#: functions.php:118
+msgid "on"
+msgstr ""
+
+#: header.php:143
+msgid "Hi, "
+msgstr ""
+
+#: header.php:151
+msgid "Logout"
+msgstr ""
+
+#: header.php:158
+msgid "Sign Up"
+msgstr ""
+
+#: header.php:159
+msgid "Sign In"
+msgstr ""
+
+#: inc/breadcrumbs.php:11
+msgid "Home "
+msgstr ""
+
+#: inc/breadcrumbs.php:181 inc/breadcrumbs.php:185 inc/breadcrumbs.php:189
+#: inc/breadcrumbs.php:196 inc/breadcrumbs.php:200 inc/breadcrumbs.php:205
+msgid "Archives"
+msgstr ""
+
+#: inc/breadcrumbs.php:216
+msgid "Author:"
+msgstr ""
+
+#: inc/breadcrumbs.php:221
+msgid "Page"
+msgstr ""
+
+#: inc/breadcrumbs.php:226
+msgid "Search results for: "
+msgstr ""
+
+#: inc/breadcrumbs.php:231
+msgid "Error 404"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:334
+msgid "Install Required Plugins"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:335
+msgid "Install Plugins"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:337
+#, php-format
+msgid "Installing Plugin: %s"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:339
+#, php-format
+msgid "Updating Plugin: %s"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:340
+msgid "Something went wrong with the plugin API."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:392
+msgid "Return to Required Plugins Installer"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:393
+#: inc/class-tgm-plugin-activation.php:912
+#: inc/class-tgm-plugin-activation.php:2618
+#: inc/class-tgm-plugin-activation.php:3665
+msgid "Return to the Dashboard"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:394
+#: inc/class-tgm-plugin-activation.php:3244
+msgid "Plugin activated successfully."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:395
+msgid "The following plugin was activated successfully:"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:397
+#, php-format
+msgid "No action taken. Plugin %1$s was already active."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:399
+#, php-format
+msgid "Plugin not activated. A higher version of %s is needed for this theme. Please update the plugin."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:401
+#, php-format
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:402
+msgid "Dismiss this notice"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:403
+msgid "There are one or more required or recommended plugins to install, update or activate."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:404
+msgid "Please contact the administrator of this site for help."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:607
+msgid "This plugin needs to be updated to be compatible with your theme."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:608
+msgid "Update Required"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:1019
+msgid "The remote plugin package does not contain a folder with the desired slug and renaming did not work."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:1019
+#: inc/class-tgm-plugin-activation.php:1022
+msgid "Please contact the plugin provider and ask them to package their plugin according to the WordPress guidelines."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:1022
+msgid "The remote plugin package consists of more than one file, but the files are not packaged in a folder."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2067
+#, php-format
+msgid "TGMPA v%s"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2358
+msgid "Required"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2361
+msgid "Recommended"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2377
+msgid "WordPress Repository"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2380
+msgid "External Source"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2383
+msgid "Pre-Packaged"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2400
+msgid "Not Installed"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2404
+msgid "Installed But Not Activated"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2406 inc/customizer.php:614
+#: inc/customizer.php:1038 inc/customizer.php:1062
+msgid "Active"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2412
+msgid "Required Update not Available"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2415
+msgid "Requires Update"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2418
+msgid "Update recommended"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2427
+#, php-format
+msgid "%1$s, %2$s"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2567
+msgid "unknown"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2575
+msgid "Installed version:"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2583
+msgid "Minimum required version:"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2595
+msgid "Available version:"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2618
+msgid "No plugins to install, update or activate."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2632
+msgid "Plugin"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2633
+msgid "Source"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2634
+msgid "Type"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2638
+msgid "Version"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2639
+msgid "Status"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2688
+#, php-format
+msgid "Install %2$s"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2693
+#, php-format
+msgid "Update %2$s"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2699
+#, php-format
+msgid "Activate %2$s"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2769
+msgid "Upgrade message from the plugin author:"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2802
+msgid "Install"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2808
+msgid "Update"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2811
+msgid "Activate"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2842
+msgid "No plugins were selected to be installed. No action taken."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2844
+msgid "No plugins were selected to be updated. No action taken."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2885
+msgid "No plugins are available to be installed at this time."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2887
+msgid "No plugins are available to be updated at this time."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2993
+msgid "No plugins were selected to be activated. No action taken."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:3019
+msgid "No plugins are available to be activated at this time."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:3243
+msgid "Plugin activation failed."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:3583
+#, php-format
+msgid "Updating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:3586
+#, php-format
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:3588
+#, php-format
+msgid "The installation of %1$s failed."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:3592
+msgid "The installation and activation process is starting. This process may take a while on some hosts, so please be patient."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:3594
+#, php-format
+msgid "%1$s installed and activated successfully."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:3594
+#: inc/class-tgm-plugin-activation.php:3602
+msgid "Show Details"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:3594
+#: inc/class-tgm-plugin-activation.php:3602
+msgid "Hide Details"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:3595
+msgid "All installations and activations have been completed."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:3597
+#, php-format
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:3600
+msgid "The installation process is starting. This process may take a while on some hosts, so please be patient."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:3602
+#, php-format
+msgid "%1$s installed successfully."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:3603
+msgid "All installations have been completed."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:3605
+#, php-format
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: inc/customizer.php:61
+msgid "Logo"
+msgstr ""
+
+#: inc/customizer.php:84
+msgid "Sticky Logo"
+msgstr ""
+
+#: inc/customizer.php:105
+msgid "Stiky menu show/hide"
+msgstr ""
+
+#: inc/customizer.php:109 inc/customizer.php:132 inc/customizer.php:279
+#: inc/customizer.php:828 inc/customizer.php:851 inc/customizer.php:874
+#: inc/customizer.php:906 inc/customizer.php:929 inc/customizer.php:952
+#: inc/customizer.php:1439 inc/customizer.php:1462 inc/customizer.php:1485
+#: inc/customizer.php:1508 inc/customizer.php:1531 inc/customizer.php:1554
+#: inc/customizer.php:1577 inc/customizer.php:1600 inc/customizer.php:1883
+#: inc/customizer.php:1906 inc/customizer.php:1929 inc/customizer.php:1952
+msgid "Show"
+msgstr ""
+
+#: inc/customizer.php:110 inc/customizer.php:133 inc/customizer.php:280
+#: inc/customizer.php:829 inc/customizer.php:852 inc/customizer.php:875
+#: inc/customizer.php:907 inc/customizer.php:930 inc/customizer.php:953
+#: inc/customizer.php:1440 inc/customizer.php:1463 inc/customizer.php:1486
+#: inc/customizer.php:1509 inc/customizer.php:1532 inc/customizer.php:1555
+#: inc/customizer.php:1578 inc/customizer.php:1601 inc/customizer.php:1884
+#: inc/customizer.php:1907 inc/customizer.php:1930 inc/customizer.php:1953
+msgid "Hide"
+msgstr ""
+
+#: inc/customizer.php:128
+msgid "Page Loader"
+msgstr ""
+
+#: inc/customizer.php:151
+msgid "Page Loader Style"
+msgstr ""
+
+#: inc/customizer.php:155
+msgid "Style 1"
+msgstr ""
+
+#: inc/customizer.php:156
+msgid "Style 2"
+msgstr ""
+
+#: inc/customizer.php:157
+msgid "Style 3"
+msgstr ""
+
+#: inc/customizer.php:158
+msgid "Style 4"
+msgstr ""
+
+#: inc/customizer.php:159
+msgid "Style 5"
+msgstr ""
+
+#: inc/customizer.php:160
+msgid "Style 6"
+msgstr ""
+
+#: inc/customizer.php:161
+msgid "Style 7"
+msgstr ""
+
+#: inc/customizer.php:175
+msgid "Loader Background Color"
+msgstr ""
+
+#: inc/customizer.php:191
+msgid "Menu Width ( Container or Container Fluid )"
+msgstr ""
+
+#: inc/customizer.php:195 inc/customizer.php:1290 inc/customizer.php:2257
+#: inc/customizer.php:2326 inc/customizer.php:2501
+msgid "Container"
+msgstr ""
+
+#: inc/customizer.php:196 inc/customizer.php:1291 inc/customizer.php:2258
+#: inc/customizer.php:2327 inc/customizer.php:2502
+msgid "Container Fluid"
+msgstr ""
+
+#: inc/customizer.php:214
+msgid "Menu Background ( Dark or Light )"
+msgstr ""
+
+#: inc/customizer.php:218
+msgid "Background Drak"
+msgstr ""
+
+#: inc/customizer.php:219
+msgid "Background Light"
+msgstr ""
+
+#: inc/customizer.php:233
+msgid "Eidmart Header"
+msgstr ""
+
+#: inc/customizer.php:234 inc/customizer.php:585 inc/customizer.php:798
+#: inc/customizer.php:967 inc/customizer.php:2015 inc/customizer.php:2456
+msgid "Several settings pertaining eidmart theme"
+msgstr ""
+
+#: inc/customizer.php:240
+msgid "Top Alert"
+msgstr ""
+
+#: inc/customizer.php:257
+msgid "Top Deal Alert Text"
+msgstr ""
+
+#: inc/customizer.php:275
+msgid "Alert Show/Hide"
+msgstr ""
+
+#: inc/customizer.php:296
+msgid "Date Schedule"
+msgstr ""
+
+#: inc/customizer.php:304
+msgid "Top menu information"
+msgstr ""
+
+#: inc/customizer.php:321
+msgid "Phone no"
+msgstr ""
+
+#: inc/customizer.php:337
+msgid "Email"
+msgstr ""
+
+#: inc/customizer.php:353
+msgid "Button text"
+msgstr ""
+
+#: inc/customizer.php:354
+msgid "Main menu right button text."
+msgstr ""
+
+#: inc/customizer.php:370 inc/customizer.php:2108 inc/customizer.php:2235
+msgid "Button url"
+msgstr ""
+
+#: inc/customizer.php:371
+msgid "Main menu right button url."
+msgstr ""
+
+#: inc/customizer.php:387
+msgid "Signup text"
+msgstr ""
+
+#: inc/customizer.php:388
+msgid "Main menu signup text."
+msgstr ""
+
+#: inc/customizer.php:404
+msgid "Signup url"
+msgstr ""
+
+#: inc/customizer.php:405
+msgid "Main menu signup url."
+msgstr ""
+
+#: inc/customizer.php:421
+msgid "Signin text"
+msgstr ""
+
+#: inc/customizer.php:422
+msgid "Main menu signin text."
+msgstr ""
+
+#: inc/customizer.php:438
+msgid "Signin url"
+msgstr ""
+
+#: inc/customizer.php:439
+msgid "Main menu signin url."
+msgstr ""
+
+#: inc/customizer.php:457 inc/customizer.php:2276
+msgid "Call to action button style"
+msgstr ""
+
+#: inc/customizer.php:461 inc/customizer.php:2280
+msgid "Style one"
+msgstr ""
+
+#: inc/customizer.php:462 inc/customizer.php:2281
+msgid "Style two"
+msgstr ""
+
+#: inc/customizer.php:463 inc/customizer.php:2282
+msgid "Style three"
+msgstr ""
+
+#: inc/customizer.php:464 inc/customizer.php:2283
+msgid "Style four"
+msgstr ""
+
+#: inc/customizer.php:465 inc/customizer.php:2284
+msgid "Style five"
+msgstr ""
+
+#: inc/customizer.php:466 inc/customizer.php:2285
+msgid "Style six"
+msgstr ""
+
+#: inc/customizer.php:467 inc/customizer.php:2286
+msgid "Style seven"
+msgstr ""
+
+#: inc/customizer.php:468 inc/customizer.php:2287
+msgid "Style eight"
+msgstr ""
+
+#: inc/customizer.php:469 inc/customizer.php:2288
+msgid "Style nine"
+msgstr ""
+
+#: inc/customizer.php:470 inc/customizer.php:2289
+msgid "Style ten"
+msgstr ""
+
+#: inc/customizer.php:471 inc/customizer.php:2290
+msgid "Style eleven"
+msgstr ""
+
+#: inc/customizer.php:472 inc/customizer.php:2291
+msgid "Style Primary"
+msgstr ""
+
+#: inc/customizer.php:473 inc/customizer.php:2292
+msgid "Style Secondary"
+msgstr ""
+
+#: inc/customizer.php:474 inc/customizer.php:2293
+msgid "Style Default"
+msgstr ""
+
+#: inc/customizer.php:475 inc/customizer.php:2294
+msgid "None"
+msgstr ""
+
+#: inc/customizer.php:491
+msgid "Facebook url"
+msgstr ""
+
+#: inc/customizer.php:507
+msgid "Twitter url"
+msgstr ""
+
+#: inc/customizer.php:523
+msgid "Linkedin url"
+msgstr ""
+
+#: inc/customizer.php:539
+msgid "Google url"
+msgstr ""
+
+#: inc/customizer.php:547
+msgid "Page Header Banner"
+msgstr ""
+
+#: inc/customizer.php:568
+msgid "Upload Page Banner"
+msgstr ""
+
+#: inc/customizer.php:584
+msgid "Eidmart Colors & Fonts"
+msgstr ""
+
+#: inc/customizer.php:591
+msgid "Active Custom Colors & Fonts"
+msgstr ""
+
+#: inc/customizer.php:610
+msgid "Active/Deactive Custom Style"
+msgstr ""
+
+#: inc/customizer.php:615
+msgid "Deactive"
+msgstr ""
+
+#: inc/customizer.php:623
+msgid "Eidmart Colors"
+msgstr ""
+
+#: inc/customizer.php:638
+msgid "Primary Color"
+msgstr ""
+
+#: inc/customizer.php:650
+msgid "Primary Hover Color"
+msgstr ""
+
+#: inc/customizer.php:662
+msgid "Secondary Color"
+msgstr ""
+
+#: inc/customizer.php:674
+msgid "Secondary Hover Color"
+msgstr ""
+
+#: inc/customizer.php:680
+msgid "Eidmart Fonts"
+msgstr ""
+
+#: inc/customizer.php:698
+msgid "Primary Font"
+msgstr ""
+
+#: inc/customizer.php:699
+msgid "Input your desired Primary Font. Ex: Open+Sans:ital,wght@0,400;0,600;0,700;0,800;1,400;1,600"
+msgstr ""
+
+#: inc/customizer.php:715
+msgid "Primary Font Family"
+msgstr ""
+
+#: inc/customizer.php:716
+msgid "Input Primary Font Family. Ex: 'Open Sans', sans-serif;"
+msgstr ""
+
+#: inc/customizer.php:733
+msgid "Secondary Font"
+msgstr ""
+
+#: inc/customizer.php:734
+msgid "Input your desired Secondary Font. Ex: Poppins:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500"
+msgstr ""
+
+#: inc/customizer.php:751
+msgid "Secondary Font Family"
+msgstr ""
+
+#: inc/customizer.php:752
+msgid "Input Secondary Font Family. Ex: 'Poppins', sans-serif;"
+msgstr ""
+
+#: inc/customizer.php:760
+msgid "Language Direction"
+msgstr ""
+
+#: inc/customizer.php:779
+msgid "Language Direction ( LTR/RTL )"
+msgstr ""
+
+#: inc/customizer.php:783
+msgid "RTL"
+msgstr ""
+
+#: inc/customizer.php:784
+msgid "LTR"
+msgstr ""
+
+#: inc/customizer.php:797
+msgid "Eidmart Blog"
+msgstr ""
+
+#: inc/customizer.php:804
+msgid "Blog Sidebar Options"
+msgstr ""
+
+#: inc/customizer.php:824
+msgid "Show/Hide eidmart Category Style"
+msgstr ""
+
+#: inc/customizer.php:847
+msgid "Show/Hide eidmart Tag Style"
+msgstr ""
+
+#: inc/customizer.php:870
+msgid "Show/Hide blog favourite icon from product and author page."
+msgstr ""
+
+#: inc/customizer.php:883
+msgid "Blog Single Page"
+msgstr ""
+
+#: inc/customizer.php:902
+msgid "Single Post Share Icon show/hide"
+msgstr ""
+
+#: inc/customizer.php:925
+msgid "Single Post Author show/hide"
+msgstr ""
+
+#: inc/customizer.php:948
+msgid "Single Post Top Author show/hide ( Full Width )"
+msgstr ""
+
+#: inc/customizer.php:966
+msgid "Eidmart Settings"
+msgstr ""
+
+#: inc/customizer.php:973
+msgid "Settings"
+msgstr ""
+
+#: inc/customizer.php:990
+msgid "Asset Controller"
+msgstr ""
+
+#: inc/customizer.php:1010
+msgid "Select Bootstrap"
+msgstr ""
+
+#: inc/customizer.php:1014
+msgid "Bootstrap 4 ( Recommended )"
+msgstr ""
+
+#: inc/customizer.php:1015
+msgid "Bootstrap 5 ( Testing Mode )"
+msgstr ""
+
+#: inc/customizer.php:1033
+msgid "Active MP3 Scripts"
+msgstr ""
+
+#: inc/customizer.php:1034
+msgid "Active MP3 scripts to play audio."
+msgstr ""
+
+#: inc/customizer.php:1039 inc/customizer.php:1063
+msgid "Inactive"
+msgstr ""
+
+#: inc/customizer.php:1057
+msgid "Active Lightbox Scripts"
+msgstr ""
+
+#: inc/customizer.php:1058
+msgid "Active Lightbox scripts to pop up photography image."
+msgstr ""
+
+#: inc/customizer.php:1079
+msgid "Widget Settings"
+msgstr ""
+
+#: inc/customizer.php:1099
+msgid "Select Widget Style"
+msgstr ""
+
+#: inc/customizer.php:1103
+msgid "Non-block Widget"
+msgstr ""
+
+#: inc/customizer.php:1104
+msgid "Block Widget"
+msgstr ""
+
+#: inc/customizer.php:1120
+msgid "VideoMart Settings"
+msgstr ""
+
+#: inc/customizer.php:1139
+msgid "Video Height ( Only for video demo )"
+msgstr ""
+
+#: inc/customizer.php:1157
+msgid "Active Video Sound on Hover"
+msgstr ""
+
+#: inc/customizer.php:1161
+msgid "Sound Active"
+msgstr ""
+
+#: inc/customizer.php:1162
+msgid "Sound Inactive"
+msgstr ""
+
+#: inc/customizer.php:1179
+msgid "Youtube video \"Read More\" button text"
+msgstr ""
+
+#: inc/customizer.php:1187
+msgid "Archive Settings"
+msgstr ""
+
+#: inc/customizer.php:1204
+msgid "Change serach box text"
+msgstr ""
+
+#: inc/customizer.php:1220
+msgid "Refresh Filter text"
+msgstr ""
+
+#: inc/customizer.php:1236
+msgid "Product Type Text"
+msgstr ""
+
+#: inc/customizer.php:1252
+msgid "All Prices Are in USD Text"
+msgstr ""
+
+#: inc/customizer.php:1268
+msgid "Change Category Text"
+msgstr ""
+
+#: inc/customizer.php:1286
+msgid "Product Archive Page Width ( Container or Container Fluid )"
+msgstr ""
+
+#: inc/customizer.php:1309
+msgid "Archive product style."
+msgstr ""
+
+#: inc/customizer.php:1313
+msgid "Grid"
+msgstr ""
+
+#: inc/customizer.php:1314
+msgid "List ( Only for software demos )"
+msgstr ""
+
+#: inc/customizer.php:1332
+msgid "Archive For ( Software/Photography/Graphics/Audio/Video )"
+msgstr ""
+
+#: inc/customizer.php:1336
+msgid "SoftWare"
+msgstr ""
+
+#: inc/customizer.php:1337
+msgid "Photography"
+msgstr ""
+
+#: inc/customizer.php:1338
+msgid "Graphics"
+msgstr ""
+
+#: inc/customizer.php:1339
+msgid "Audio"
+msgstr ""
+
+#: inc/customizer.php:1340
+msgid "Video"
+msgstr ""
+
+#: inc/customizer.php:1356
+msgid "Archive/Author Profile product settings "
+msgstr ""
+
+#: inc/customizer.php:1376
+msgid "Product Grid"
+msgstr ""
+
+#: inc/customizer.php:1380
+msgid "6 Column"
+msgstr ""
+
+#: inc/customizer.php:1381
+msgid "4 Column"
+msgstr ""
+
+#: inc/customizer.php:1382
+msgid "3 Column"
+msgstr ""
+
+#: inc/customizer.php:1383
+msgid "2 Column"
+msgstr ""
+
+#: inc/customizer.php:1400
+msgid "Archive grid product title limit in letter."
+msgstr ""
+
+#: inc/customizer.php:1417
+msgid "Archive list product title limit in letter."
+msgstr ""
+
+#: inc/customizer.php:1435
+msgid "Show/Hide author name from archive product."
+msgstr ""
+
+#: inc/customizer.php:1458
+msgid "Show/Hide category name from archive product."
+msgstr ""
+
+#: inc/customizer.php:1481
+msgid "Show/Hide item excerpt."
+msgstr ""
+
+#: inc/customizer.php:1504
+msgid "Show/Hide product rating, sale, love."
+msgstr ""
+
+#: inc/customizer.php:1527
+msgid "Show/Hide only ratings"
+msgstr ""
+
+#: inc/customizer.php:1550
+msgid "Show/Hide only love icon"
+msgstr ""
+
+#: inc/customizer.php:1573
+msgid "Show/Hide only sales"
+msgstr ""
+
+#: inc/customizer.php:1596
+msgid "Show/Hide price"
+msgstr ""
+
+#: inc/customizer.php:1621
+msgid "Photography Archive Advertise"
+msgstr ""
+
+#: inc/customizer.php:1639
+msgid "Set Ad Position 1."
+msgstr ""
+
+#: inc/customizer.php:1640 inc/customizer.php:1674 inc/customizer.php:1708
+#: inc/customizer.php:1742 inc/customizer.php:1776
+msgid "Photography archive page ad position."
+msgstr ""
+
+#: inc/customizer.php:1656
+msgid "Ad 1 Code."
+msgstr ""
+
+#: inc/customizer.php:1673
+msgid "Set Ad Position 2."
+msgstr ""
+
+#: inc/customizer.php:1690
+msgid "Ad 2 Code."
+msgstr ""
+
+#: inc/customizer.php:1707
+msgid "Set Ad Position 3."
+msgstr ""
+
+#: inc/customizer.php:1724
+msgid "Ad 3 Code."
+msgstr ""
+
+#: inc/customizer.php:1741
+msgid "Set Ad Position 4."
+msgstr ""
+
+#: inc/customizer.php:1758
+msgid "Ad 4 Code."
+msgstr ""
+
+#: inc/customizer.php:1775
+msgid "Set Ad Position 5."
+msgstr ""
+
+#: inc/customizer.php:1792
+msgid "Ad 5 Code."
+msgstr ""
+
+#: inc/customizer.php:1801
+msgid "Product Single"
+msgstr ""
+
+#: inc/customizer.php:1820
+msgid "Show/Hide Product Feature"
+msgstr ""
+
+#: inc/customizer.php:1821
+msgid "This feature option means product specification section for a single product sidebar or others."
+msgstr ""
+
+#: inc/customizer.php:1825
+msgid "Admin Capability"
+msgstr ""
+
+#: inc/customizer.php:1826
+msgid "Vendor Capability"
+msgstr ""
+
+#: inc/customizer.php:1827
+msgid "Hide Feature Section"
+msgstr ""
+
+#: inc/customizer.php:1844
+msgid "Change single product \"Add to Favorites\" text."
+msgstr ""
+
+#: inc/customizer.php:1861
+msgid "Change single product \"Person Liked it\" text."
+msgstr ""
+
+#: inc/customizer.php:1879
+msgid "Price box show/hide"
+msgstr ""
+
+#: inc/customizer.php:1902
+msgid "Purchase & Comment Universally show/hide"
+msgstr ""
+
+#: inc/customizer.php:1925
+msgid "User Profile show/hide"
+msgstr ""
+
+#: inc/customizer.php:1948
+msgid "Stiky Price show/hide"
+msgstr ""
+
+#: inc/customizer.php:1971
+msgid "Single Product Page Mouse Right Button Enable/Disable ( Specially Photography )"
+msgstr ""
+
+#: inc/customizer.php:1975
+msgid "Enable"
+msgstr ""
+
+#: inc/customizer.php:1976
+msgid "Disable"
+msgstr ""
+
+#: inc/customizer.php:1984
+msgid "Google Map API"
+msgstr ""
+
+#: inc/customizer.php:2001
+msgid "Google map API key"
+msgstr ""
+
+#: inc/customizer.php:2014
+msgid "Eidmart Others"
+msgstr ""
+
+#: inc/customizer.php:2021
+msgid "404 Page"
+msgstr ""
+
+#: inc/customizer.php:2042
+msgid "404 Page background image"
+msgstr ""
+
+#: inc/customizer.php:2060 inc/customizer.php:2187
+msgid "Title Text"
+msgstr ""
+
+#: inc/customizer.php:2076
+msgid "Sub Title Text"
+msgstr ""
+
+#: inc/customizer.php:2092 inc/customizer.php:2219
+msgid "Button Text"
+msgstr ""
+
+#: inc/customizer.php:2116
+msgid "Page Call To Action"
+msgstr ""
+
+#: inc/customizer.php:2137
+msgid "CTA background image"
+msgstr ""
+
+#: inc/customizer.php:2155
+msgid "Gradient Color One"
+msgstr ""
+
+#: inc/customizer.php:2171
+msgid "Gradient Color Two"
+msgstr ""
+
+#: inc/customizer.php:2203
+msgid "Description"
+msgstr ""
+
+#: inc/customizer.php:2253
+msgid "CTA Width ( Container or Container Fluid )"
+msgstr ""
+
+#: inc/customizer.php:2303
+msgid "Our Commitment"
+msgstr ""
+
+#: inc/customizer.php:2322
+msgid "Commitment Width ( Container or Container Fluid )"
+msgstr ""
+
+#: inc/customizer.php:2347
+msgid "Upload payment image"
+msgstr ""
+
+#: inc/customizer.php:2365 inc/customizer.php:2403 inc/customizer.php:2441
+msgid "Title"
+msgstr ""
+
+#: inc/customizer.php:2385
+msgid "Upload money back image"
+msgstr ""
+
+#: inc/customizer.php:2423
+msgid "Upload support image"
+msgstr ""
+
+#: inc/customizer.php:2455
+msgid "Eidmart Footer"
+msgstr ""
+
+#: inc/customizer.php:2462
+msgid "Footer information"
+msgstr ""
+
+#: inc/customizer.php:2479
+msgid "Copyright text"
+msgstr ""
+
+#: inc/customizer.php:2497
+msgid "Footer Width ( Container or Container Fluid )"
+msgstr ""
+
+#: inc/customizer.php:2520
+msgid "Footer General/Animate Background"
+msgstr ""
+
+#: inc/customizer.php:2524
+msgid "General"
+msgstr ""
+
+#: inc/customizer.php:2525
+msgid "Background Animation"
+msgstr ""
+
+#: inc/customizer.php:2526
+msgid "Dark"
+msgstr ""
+
+#: inc/plugins.php:45
+msgid "MailChimp"
+msgstr ""
+
+#: inc/plugins.php:50
+msgid "Contact Form 7"
+msgstr ""
+
+#: inc/plugins.php:55
+msgid "Elementor Page builder"
+msgstr ""
+
+#: inc/plugins.php:60
+msgid "Easy Digital Downloads"
+msgstr ""
+
+#: inc/plugins.php:65
+msgid "Featured Product"
+msgstr ""
+
+#: inc/plugins.php:70
+msgid "One Click Demo Import"
+msgstr ""
+
+#: inc/plugins.php:75
+msgid "Knowledgebase"
+msgstr ""
+
+#: inc/plugins.php:80 template-parts/product/content-product.php:90
+msgid "Support"
+msgstr ""
+
+#: inc/plugins.php:85
+msgid "Eidmart Plugin"
+msgstr ""
+
+#: inc/plugins.php:101
+msgid "I really, really need you to install these plugins, okay?"
+msgstr ""
+
+#: inc/template-functions.php:83
+msgid "By"
+msgstr ""
+
+#: inc/template-functions.php:90
+msgid "No Comments"
+msgstr ""
+
+#: inc/template-functions.php:112
+msgid "There are no categories."
+msgstr ""
+
+#: inc/template-functions.php:149
+msgid "All Categories"
+msgstr ""
+
+#: inc/template-functions.php:175
+msgid "There are no tags."
+msgstr ""
+
+#: inc/template-functions.php:324
+msgid "comments"
+msgstr ""
+
+#: inc/template-functions.php:360
+msgid "Purchased"
+msgstr ""
+
+#: inc/template-functions.php:371
+msgid "Author"
+msgstr ""
+
+#: inc/template-functions.php:510
+msgid " Total : "
+msgstr ""
+
+#: inc/template-functions.php:513
+msgid "Checkout"
+msgstr ""
+
+#: inc/template-functions.php:519
+msgid "Your cart is empty."
+msgstr ""
+
+#: inc/template-functions.php:641 inc/template-functions.php:850
+msgid "WordPress Themes & Website Templates"
+msgstr ""
+
+#: inc/template-functions.php:688
+msgid "Refresh Filter"
+msgstr ""
+
+#: inc/template-functions.php:697
+msgid "Category"
+msgstr ""
+
+#: inc/template-functions.php:715
+msgid "Product Type"
+msgstr ""
+
+#: inc/template-functions.php:725 inc/template-functions.php:802
+msgid "Popular"
+msgstr ""
+
+#: inc/template-functions.php:737 inc/template-functions.php:807
+msgid "Newest"
+msgstr ""
+
+#: inc/template-functions.php:743 inc/template-functions.php:817
+msgid "Bestselling"
+msgstr ""
+
+#: inc/template-functions.php:749 inc/template-functions.php:822
+msgid "Low Price"
+msgstr ""
+
+#: inc/template-functions.php:755 inc/template-functions.php:827
+msgid "High Price"
+msgstr ""
+
+#: inc/template-functions.php:783
+msgid "Categories: "
+msgstr ""
+
+#: inc/template-functions.php:797
+msgid "Filter: "
+msgstr ""
+
+#: inc/template-functions.php:908 inc/template-functions.php:994
+msgid "Filter By:"
+msgstr ""
+
+#: inc/template-functions.php:909 inc/template-functions.php:995
+msgid "All Products"
+msgstr ""
+
+#: inc/template-functions.php:920 inc/template-functions.php:1006
+msgid "Select Category"
+msgstr ""
+
+#: inc/template-functions.php:938 inc/template-functions.php:1022
+msgid "Select Product"
+msgstr ""
+
+#: inc/template-functions.php:939 inc/template-functions.php:1023
+msgid "Popular Products"
+msgstr ""
+
+#: inc/template-functions.php:940 inc/template-functions.php:1024
+msgid "Newest Products"
+msgstr ""
+
+#: inc/template-functions.php:941 inc/template-functions.php:1025
+msgid "Featured Products"
+msgstr ""
+
+#: inc/template-functions.php:942 inc/template-functions.php:1026
+msgid "Bestselling Products"
+msgstr ""
+
+#: inc/template-functions.php:943 inc/template-functions.php:1027
+msgid "Low to High"
+msgstr ""
+
+#: inc/template-functions.php:944 inc/template-functions.php:1028
+msgid "High to Low"
+msgstr ""
+
+#: inc/template-functions.php:1072
+msgid "Username"
+msgstr ""
+
+#: inc/template-functions.php:1094
+msgid "Eidmart Registration is Required!"
+msgstr ""
+
+#: inc/template-functions.php:1118
+msgid "Prev"
+msgstr ""
+
+#: inc/template-functions.php:1119
+msgid "Next"
+msgstr ""
+
+#: inc/template-functions.php:1141
+msgid "Permission denied"
+msgstr ""
+
+#: inc/template-functions.php:1148
+msgid "Something is wrong, please try again later ..."
+msgstr ""
+
+#: inc/template-functions.php:1239
+msgid "Sale "
+msgstr ""
+
+#: inc/template-tags.php:62
+msgid ", "
+msgstr ""
+
+#: inc/template-tags.php:65
+#, php-format
+msgid "Posted in %1$s"
+msgstr ""
+
+#: inc/template-tags.php:72
+#, php-format
+msgid "Tagged %1$s"
+msgstr ""
+
+#: inc/template-tags.php:82
+#, php-format
+msgid "Leave a Comment<span class=\"screen-reader-text\"> on %s</span>"
+msgstr ""
+
+#: inc/template-tags.php:99 template-parts/content-page.php:37
+#, php-format
+msgid "Edit <span class=\"screen-reader-text\">%s</span>"
+msgstr ""
+
+#: inc/widget.php:17
+msgid "Sidebar"
+msgstr ""
+
+#: inc/widget.php:19
+msgid "Sidebar position."
+msgstr ""
+
+#: inc/widget.php:25
+msgid "bbpress Sidebar"
+msgstr ""
+
+#: inc/widget.php:27
+msgid "bbpress Sidebar position."
+msgstr ""
+
+#: inc/widget.php:33
+msgid "Footer Link Widget"
+msgstr ""
+
+#: inc/widget.php:35
+msgid "Footer widget for link position."
+msgstr ""
+
+#: inc/widget.php:41
+msgid "Footer About Widget"
+msgstr ""
+
+#: inc/widget.php:43
+msgid "Footer widget for about position."
+msgstr ""
+
+#: inc/widget.php:49
+msgid "Footer Subscribe Widget"
+msgstr ""
+
+#: inc/widget.php:51
+msgid "Footer widget for subscribe email form position."
+msgstr ""
+
+#: inc/widget.php:57
+msgid "Footer Bottom Link Widget"
+msgstr ""
+
+#: inc/widget.php:59
+msgid "Footer widget for bottom link position."
+msgstr ""
+
+#: inc/widget.php:63
+msgid "User Profile Link Wdiget Area"
+msgstr ""
+
+#: inc/widget.php:65
+msgid "This is your widget profile link widget area to show usefull link."
+msgstr ""
+
+#: index.php:16
+msgid "Blog"
+msgstr ""
+
+#: search.php:159
+#, php-format
+msgid "Search Results for: %s"
+msgstr ""
+
+#: single-download.php:65 single-download.php:117 single-download.php:162
+#: single-download.php:199 single-download.php:245
+msgid " Sales"
+msgstr ""
+
+#: single-download.php:65 single-download.php:117 single-download.php:162
+#: single-download.php:199 single-download.php:245
+msgid " Sale"
+msgstr ""
+
+#: template-parts/blog/full-width.php:63
+#: template-parts/blog/general-content.php:63
+msgid "Tags:"
+msgstr ""
+
+#: template-parts/blog/general-content.php:183
+#: template-parts/product/content-graphicland-woo.php:304
+#: template-parts/product/general-sidebar.php:275
+#: template-parts/product/photography-sidebar.php:231 wedocs/single-docs.php:82
+msgid "Tags"
+msgstr ""
+
+#: template-parts/content-none.php:16
+msgid "Nothing Found"
+msgstr ""
+
+#: template-parts/content-none.php:26
+#, php-format
+msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#: template-parts/content-none.php:39
+msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
+msgstr ""
+
+#: template-parts/content-none.php:46
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
+msgstr ""
+
+#: template-parts/content-page.php:24
+msgid "Pages:"
+msgstr ""
+
+#: template-parts/content.php:46
+msgid "Read More"
+msgstr ""
+
+#: template-parts/product/content-audio.php:30
+#: template-parts/product/content-graphicland-woo.php:78
+#: template-parts/product/content-graphicland.php:30
+#: template-parts/product/content-video.php:30
+msgid "by "
+msgstr ""
+
+#: template-parts/product/content-audio.php:39
+#: template-parts/product/content-graphicland-woo.php:87
+#: template-parts/product/content-graphicland.php:41
+#: template-parts/product/content-video.php:41
+msgid "in "
+msgstr ""
+
+#: template-parts/product/content-audio.php:106
+#: template-parts/product/content-audio.php:117
+#: template-parts/product/content-graphicland-woo.php:61
+#: template-parts/product/content-graphicland.php:98
+#: template-parts/product/content-graphicland.php:109
+#: template-parts/product/content-image.php:27
+#: template-parts/product/content-product.php:64
+#: template-parts/product/content-video.php:106
+#: template-parts/product/content-video.php:117
+msgid "Share:"
+msgstr ""
+
+#: template-parts/product/content-graphicland-woo.php:165
+#: template-parts/product/general-sidebar.php:90
+#: template-parts/product/photography-sidebar.php:77
+msgid "0"
+msgstr ""
+
+#: template-parts/product/content-graphicland-woo.php:165
+#: template-parts/product/general-sidebar.php:90
+#: template-parts/product/photography-sidebar.php:77
+msgid " "
+msgstr ""
+
+#: template-parts/product/content-graphicland-woo.php:165
+#: template-parts/product/general-sidebar.php:90
+#: template-parts/product/photography-sidebar.php:77
+msgid "Comments"
+msgstr ""
+
+#: template-parts/product/content-graphicland-woo.php:193
+#: template-parts/product/general-sidebar.php:153
+#: template-parts/product/photography-sidebar.php:120
+msgid "Compatible Browsers"
+msgstr ""
+
+#: template-parts/product/content-graphicland-woo.php:212
+#: template-parts/product/general-sidebar.php:171
+#: template-parts/product/photography-sidebar.php:139
+msgid "Compatible With"
+msgstr ""
+
+#: template-parts/product/content-graphicland-woo.php:218
+#: template-parts/product/general-sidebar.php:181
+#: template-parts/product/photography-sidebar.php:145
+msgid "Framework"
+msgstr ""
+
+#: template-parts/product/content-graphicland-woo.php:235
+#: template-parts/product/general-sidebar.php:200
+#: template-parts/product/photography-sidebar.php:162
+msgid "Software Version"
+msgstr ""
+
+#: template-parts/product/content-graphicland-woo.php:252
+#: template-parts/product/general-sidebar.php:218
+#: template-parts/product/photography-sidebar.php:179
+msgid "Layout Types"
+msgstr ""
+
+#: template-parts/product/content-graphicland-woo.php:269
+#: template-parts/product/general-sidebar.php:236
+#: template-parts/product/photography-sidebar.php:196
+msgid "Files Included"
+msgstr ""
+
+#: template-parts/product/content-graphicland-woo.php:329
+msgid "Product details"
+msgstr ""
+
+#: template-parts/product/content-product.php:78
+msgid "Item Details"
+msgstr ""
+
+#: template-parts/product/content-product.php:81
+msgid "Comment"
+msgstr ""
+
+#: template-parts/product/content-product.php:86
+msgid "Reviews"
+msgstr ""
+
+#: template-parts/product/general-sidebar.php:109
+msgid "View Portfolio"
+msgstr ""
+
+#: template-parts/product/general-sidebar.php:118
+#: template-parts/product/photography-sidebar.php:85
+msgid "Item Rating:"
+msgstr ""
+
+#: template-parts/product/general-sidebar.php:125
+#: template-parts/product/photography-sidebar.php:92
+msgid "This item no rated yet."
+msgstr ""
+
+#: wedocs/single-docs.php:51
+msgid "Print this article"
+msgstr ""
+
+#: wedocs/single-docs.php:59
+#, php-format
+msgid "Continue reading %s <span class=\"meta-nav\">&rarr;</span>"
+msgstr ""
+
+#: wedocs/single-docs.php:64
+msgid "Docs:"
+msgstr ""
+
+#: wedocs/single-docs.php:93
+msgid "Still stuck?"
+msgstr ""
+
+#: wedocs/single-docs.php:93
+msgid "How can we help?"
+msgstr ""
+
+#: wedocs/single-docs.php:103
+#, php-format
+msgid "Updated on %s"
+msgstr ""
+
+#: woocommerce.php:20
+msgid "Shop"
+msgstr ""
