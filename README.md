@@ -1,2 +1,5 @@
 # eidmart-edd
  Plantilla wp para Easy Digital Download
+el tema de WordPress del mercado digital para vender productos, servicios y otros digitales. Que está construido en base a WordPress y Easy Digital Downloads. Con el tema del mercado digital de Eidmart , puede vender productos digitales como fotos de archivo, temas, complementos, software, audio, video, arte, tutoriales, música, libros electrónicos, archivos de fuentes y mucho más. Ha sido desarrollado para propósitos Single y Multivnedor. Puede permitir que cualquier persona cargue sus artículos digitales y los venda a través de su sitio simplemente instalando el complemento de envío frontal (FES) de Easy Digital Download. Tiene un diseño único y limpio basado en la última tecnología con excelentes características.
+
+También hemos utilizado el complemento Elementor del generador de páginas de arrastrar y soltar más popularle permite crear sus páginas web rápidamente sin conocer una sola pieza de código. El tema del mercado digital de Eidmart está muy personalizado y organizado para vender diferentes tipos de productos digitales.
